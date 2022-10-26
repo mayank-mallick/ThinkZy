@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ThinkZy Tech</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header class="header" id="header">
+      <img src="images/logo1.png" alt="logo" class="logo" />
+      <nav class="navbar">
+        <ul class="navbar-lists">
+          <li><a class="navbar-link home-link" href="#">Home</a></li>
+          <li>
+            <a class="navbar-link service-link" href="#service-section"
+              >Services</a
+            >
+          </li>
+          <li>
+            <a class="navbar-link about-link" href="#about-section"
+              >About</a
+            >
+          </li>
+          <li><a class="navbar-link" href="#contact-section">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="mobile-navbar-btn">
+        <ion-icon
+          class="mobile-nav-icon"
+          name="menu-outline"
+          class="mobile-nav-icon"
+        ></ion-icon>
+
+        <ion-icon
+          class="mobile-nav-icon"
+          name="close-outline"
+          class="mobile-nav-icon"
+        ></ion-icon>
+      </div>
+    </header>
+
+    <!-- Main -->
+
+    <main id="borderimg">
+      <section class="section-main section">
+        <div class="container grid grid-two-col">
+          <div class="section-main-data">
+            <p class="main-top-data">This is us</p>
+            <h1 class="main-heading">ThinkZy Tech.</h1>
+            <p class="main-para">
+              Our presence is in USA, Cayman Islands, Fiji; with headquarters in
+              India enable us to cater to customers all over the globe. We
+              believe in building long lasting partnerships, where our driving
+              profits for our customers fuels our growth.
+            </p>
+          </div>
+
+          <div class="section-main-image">
+            <img src="images/idk/gautam sir.jpg" alt="image" class="main-img" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Services -->
+
+    <section class="section-services section " id="service-section">
+      <div class="container">
+        <h2 class="common-heading">Our Services</h2>
+      </div>
+
+      <div class="container grid grid-three-col">
+        <div class="service-box">
+          <ion-icon class="service-icon" name="desktop-outline"></ion-icon>
+          <h3>Digital Marketing</h3>
+          <p>
+            Digital marketing, also called online marketing, is the promotion of brands to connect with potential customers using the internet and other forms of digital communication.
+          </p>
+        </div>
+
+        <div class="service-box">
+          <ion-icon name="logo-react" class="service-icon"></ion-icon>
+          <h3>SEO</h3>
+          <p>
+            SEO stands for 'Search Engine Optimization', which is the process of getting traffic from free, organic, editorial, or natural search results in search engines. 
+          </p>
+        </div>
+
+        <div class="service-box">
+          <ion-icon class="service-icon" name="desktop-outline"></ion-icon>
+          <h3>Software Development</h3>
+          <p>
+            Software development is the collective processes involved in creating software programs, embodying all the stages throughout the systems development life cycle (SDLC).
+          </p>
+        </div>
+
+        <div class="service-box">
+          <ion-icon class="service-icon" name="desktop-outline"></ion-icon>
+          <h3>Mobile Application Development</h3>
+          <p>
+            Mobile application development is the process of creating software applications that run on a mobile device, and a typical mobile application utilizes a network connection to work with remote computing resources.
+          </p>
+        </div>
+        <div class="service-box">
+          <ion-icon class="service-icon" name="desktop-outline"></ion-icon>
+          <h3>Web Designing</h3>
+          <p>
+            Web Design is the creation of graphics, typography, graphs, and images to communicate an idea. However, Web Design only concerns websites, not print. Web Designers are responsible for creating websites that not only look good but load quickly.
+          </p>
+        </div>
+        <div class="service-box">
+          <ion-icon class="service-icon" name="desktop-outline"></ion-icon>
+          <h3>Graphic Designing</h3>
+          <p>
+            Graphic Design is the use of graphics, typography, graphs, and images to communicate an idea.Graphic Design only concerns the creation of graphics for use on websites or in print. Graphic Designers do not do any programming.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    
+    <section class="section-about section " id="about-section">
+      <div class="container">
+        <h2 class="common-heading">About Us</h2>
+        <p>
+          We are the World’s leading Operations Research, Artificial Intelligence & Software Development Services company. Having a team of Operations Research Scientists, Data Scientists and Software developers enables us to address all corporate technical needs. We drive change strategically and systematically, for complete digital transformation.
+        </p>
+      </div>
+
+      <div class="container grid grid-three-col about-images">
+        <div>
+          <img src="/images/idk/gautam sir.jpg" alt="" />
+        </div>
+
+        <div>
+          <img src="images/idk/surya sir.jpg" alt="" />
+        </div>
+
+        <div>
+          <img src="images/idk/snehashish sir.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+
+    <section class="section section-contact " id="contact-section">
+      <div class="container">
+        <h2 class="common-heading">contact us</h2>
+      </div>
+
+      <div class="section-contact-main contact-container">
+        <form action="formspree" method="POST">
+          <div class=" grid grid-two-col">
+            <input
+              type="text"
+              name="username"
+              id=""
+              required
+              placeholder="Name"
+            />
+            <input
+              type="email"
+              name="email"
+              required
+              placeholder="Email"
+              autocomplete="false"
+            />
+          </div>
+          <div>
+            <input type="text" name="subject" placeholder="Subject" />
+          </div>
+          <div>
+            <textarea name="message" id="" placeholder="Message"></textarea>
+          </div>
+
+          <div>
+            <input type="submit" value="send" class="btn" />
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="section section-footer ">
+      <div class="container grid grid-four-col">
+        <div class="f-about">
+          <h3>About</h3>
+          <p>
+            We are the World’s leading Operations Research, Artificial Intelligence & Software Development Services company. Having a team of Operations Research Scientists, Data Scientists and Software developers enables us to address all corporate technical needs.
+          </p>
+        </div>
+
+        <div class="f-links">
+          <h3>Links</h3>
+          <ul>
+            <li>
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span
+              ><a href="#">home</a>
+            </li>
+            <li>
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span
+              ><a href="#service-section">services</a>
+            </li>
+            <li>
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span
+              ><a href="#about-section">about</a>
+            </li>
+            <li>
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span
+              ><a href="#contact-section">contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="f-services">
+          <h3>Services</h3>
+          <ul>
+            <li>
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span
+              ><a href="#">Digital Marketing</a>
+            </li>
+            <li>
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span
+              ><a href="#">SEO</a>
+            </li>
+            <li>
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span
+              ><a href="#">Software Development</a>
+            </li>
+
+            <li>
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span
+              ><a href="#">Mobile Application Development</a>
+            </li>
+            <li>
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span
+              ><a href="#">Web Designing</a>
+            </li>
+            <li>
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span
+              ><a href="#">Graphics Designing</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="f-address">
+          <h3>Have any questions?</h3>
+          <address>
+            <div>
+              <p>
+                <span><ion-icon name="location-outline"></ion-icon></span>
+                Jaipur, Rajasthan, India
+              </p>
+            </div>
+
+            <div>
+              <p>
+                <span><ion-icon name="call-outline"></ion-icon></span>
+                <a href="tel:+91123456789"> +91 1414017633 </a>
+              </p>
+            </div>
+
+            <div>
+              <p>
+                <span><ion-icon name="mail-outline"></ion-icon></span>
+                <a href="mailto:hr@thinkzytech.com"> hr@thinkzytech.com </a>
+              </p>
+            </div>
+          </address>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="f-social-icons">
+          <a href="https://www.instagram.com/thinkzytech/" target="_blank">
+            <ion-icon class="icons" name="logo-instagram"></ion-icon>
+          </a>
+
+          <a href="https://www.linkedin.com/in/thinkzytech/" target="_blank">
+            <ion-icon class="icons" name="logo-linkedin"></ion-icon>
+          </a>
+        </div>
+
+        <div class="f-credits">
+          <p>Copyright ©2022 All rights reserved | ThinkZy Tech.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- js -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    
+    <script src="index.js"></script>
+  </body>
+</html>
